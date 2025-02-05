@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.card {
+    border: 1px solid black;
+    display: inline-block;
+    margin: auto;
+    text-align: center;
+    width: 300px;
+    font-family:sans-serif ;
+}
+
+h1 {
+    margin: 10px;
+}
+
+img {
+    width: 100%;
+}
+
+.descript {
+    margin: 20px;
+    color: gray;
+}
+
+a{
+    color: black;
+}
+
+.social {
+    margin: 20px;
+}
+
+button {
+    width: 100%;
+    background-color: violet;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    
+}
