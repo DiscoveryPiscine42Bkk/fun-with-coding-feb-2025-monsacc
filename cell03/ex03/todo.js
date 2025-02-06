@@ -1,3 +1,7 @@
+window.onload = function() {
+    loadTodos();
+};
+
 function addTodo() {
     let task = prompt("Enter a new task:");
     if (task && task.trim() !== "") {
