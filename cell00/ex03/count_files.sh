@@ -1,0 +1,3 @@
+#!/bin/bash
+count=$(find . -maxdepth 1 ! -name ".*" | wc -1)
+echo $count
